@@ -1,0 +1,25 @@
+:root {
+  --header-height: 55px;
+  --base-color: #0b1b2b;
+}
+body {
+  background-color: #0b1b2b;
+
+  font-family: "Anton", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
