@@ -23,3 +23,7 @@ nav {
 ul {
   list-style: none;
 }
+.hero-container {
+  display: flex;
+  height: 250px;
+}
