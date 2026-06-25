@@ -19,8 +19,14 @@ a {
 }
 nav {
   display: flex;
+  align-items: center;
 }
-ul {
+.nav-bar {
+  list-style: none;
+  display: flex;
+}
+
+.event {
   list-style: none;
 }
 .hero-container {
