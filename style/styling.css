@@ -134,3 +134,173 @@ button {
   border-color: #5a6b7b;
   border: 2px solid #5a6b7b;
 }
+.count-card {
+  display: flex;
+  margin-top: 50px;
+  padding: 0px 50px;
+  gap: 40px;
+}
+.card {
+  color: #d7ff2e;
+  font-size: 50px;
+}
+.count-card-disc {
+  display: flex;
+  padding: 0px 50px;
+  gap: 51px;
+}
+.card-disc {
+  display: flex;
+  color: #5a6b7b;
+  text-transform: capitalize;
+}
+.sub-header {
+  color: #1a56ff;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.main-head {
+  color: #0b1b2b;
+  font-size: 50px;
+}
+.right-header {
+  margin-right: 0px;
+}
+.right-content {
+  color: #5a6b7b;
+}
+.matches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 50px 0px;
+  width: 100%;
+  max-width: 80px;
+}
+
+.match-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eef2f5;
+}
+
+.card-header {
+  background-color: #f8fafc;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eef2f5;
+  border-radius: 20px;
+}
+
+.stage-title {
+  color: #1a56ff;
+  font-weight: 450;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.match-date {
+  color: #5a6b7b;
+  font-size: 13px;
+  font-weight: 450;
+}
+
+.card-body {
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teams-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag {
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.vs-separator {
+  color: #cbd5e1;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.match-location {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #f1f5f9;
+  margin: 0 20px;
+}
+
+.card-footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-label {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.price-amount {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.buy-btn {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 5px 12px;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #1e293b;
+}

@@ -33,3 +33,15 @@ nav {
   display: flex;
   height: 250px;
 }
+.grid {
+  background-color: #f4f6f8;
+  padding: 35px 16px;
+}
+.fixture-grid-head {
+  display: flex;
+  align-items: flex-end;
+}
+
+.right-header {
+  margin-left: auto;
+}
